@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Practica de CSS</title>
+    </head>
+
+    <style>
+        table {
+          border-collapse: collapse;
+          width: 100%;
+        }
+        th, td {
+          border: 1px solid black;
+          padding: 8px;
+          text-align: center;
+        }
+        
+      </style>
+
+    <body style="background-color: rgba(70, 98, 102, 0.562);">
+        <h1 style="Color:red; font-size: 40px;"><center>Practica en CSS</center></h1>        
+        <h2 style="Color:rgb(175, 71, 30)">Trabajo práctico</h2>
+        <span style="color:blue; font-size: 18px">Alumno:</span>
+        <p><span style="background-color: red;">Nicolás Chazarreta</span></p>
+
+
+
+        <h1 style="color:rgb(68, 0, 255)">Curriculum Vitae de Bruce Wayne</h1>
+        <h2 style="Color:yellow">Datos personales:</h2>
+    
+        <UL>   
+            <LI>Nombre completo: <b> <span style="Color:rgb(42, 235, 74)">Bruce Wayne</span></b>
+            <LI>Fecha de nacimiento: <b><span  style="Color:rgb(194, 191, 8)">1/5/1939</span></b>
+            <LI>Lugar de nacimiento: <b><span style="Color:rgb(197, 3, 3)">Gotham City</span></b>
+        </ul>    
+        <p></p>
+
+
+        <h1>Tabla:</h1>
+        <table border="1">
+
+            <tr>
+                <th>Categoria</th>
+                <th>Etquetas</th>
+            </tr>
+
+            <tr>
+                <th>Formulario</th>
+                <td>   Form
+                    <p>input</p>
+                    <p>textarea</p>
+                    <p>select</p>
+                </td>
+                
+            </tr>
+
+            <tr>
+                <th>Tabla</th>
+                <td>   table
+                    <p>tr</p>
+                    <p>th</p>
+                    <p>td</p>
+                </td>
+                
+            </tr>
+
+            <tr>
+                <th>Texto</th>
+                <td>   b
+                    <p>em</p>
+                    <p>strong</p>
+                    <p>sub</p>
+                </td>
+                
+            </tr>
+
+
+        </table>
+
+
+        <h1>Formulario de Registro</h1>
+        <form action = " " method = "Get"> </form>
+            
+            <p>
+            <label>Nombre:</label>
+            <input id= "name" type = "text" name = "Nombre" maxlength= "50"/>
+            </p>    
+    
+            <p>
+            <label>Apellido:</label>
+            <input id="Apellido" type = "text" name = "Nombre" maxlength= "50"/>
+            </p>           
+    
+            <p>   
+            <label>Sexo:</label>        
+            <input type = "radio" name= "Sexo" value="h"/>
+            Hombre
+            <input type = "radio" name= "Sexo" value="h"/>
+            Mujer     
+            </p>
+                                       
+            <p>
+            <label>Correo:</label> 
+            <input id="Correo" type = "text" name = "Nombre" maxlength= "50"/>    
+            </p>
+    
+            <p>        
+            <input id="Checkbox" type="checkbox" name = "Info" checked="checked"/>
+            <label>Deseo recibir información</label>
+            </p>
+            
+            <p>
+            <input id="Checkbox" type="checkbox" name = "info"/>
+            <label>Declaro haber leido terminos y condiciones</label>
+            </p>
+    
+            <p>
+            <input id="submit" type="submit" value="Enviar"/>  
+            </p>
+    
+            <p><br>
+            <label>Poblacion:</label>
+            <select id="select" name="paises" id="paises">
+                <option value="Argentina">Argentina</option>
+                <option value="Brasil"> Brasil </option>
+                <option value="Ecuador"> Ecuador</option>
+                <option value="Chile"> Chile</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Paraguay">Paraguay</option>
+              </select> 
+            </p><br>
+    
+            <p>
+            <label>Descripción:</label>    
+            <p><textarea id="desc" name="desc" cols="45" rows="5"></textarea> </p>           
+            </p>
+    
+
+    </body>
+
+</html>
